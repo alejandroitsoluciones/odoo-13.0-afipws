@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record id="main_company_certificate_alias" model="afipws.certificate_alias">
-        <field name="common_name">AFIPWShomologationYourCompany</field>
+        <field name="common_name">AFIPWSHomologation</field>
         <field name="key">-----BEGIN RSA PRIVATE KEY-----
 MIIEowIBAAKCAQEAtm5vXiHIckZ0VMOfwmB4FfGlk4V+AB9313weiJIv8tqrGTck
 rxenzdGahRTZrWoWg78HgaPNuVIAuarS5z1+2+NGRJ8mNotAmqc6QsJKITbqDjr0
