@@ -6,20 +6,20 @@
 Modulo Base para los Web Services de AFIP
 =========================================
 
-Homologation / production:
+Homologation / Production:
 --------------------------
 
-First it search for a paramter "afip.ws.env.type" if exists and:
+Primero busca un parámetro "afip.ws.env.type" si existe y:
 
-* is production --> production
-* is homologation --> homologation
+* Es Producción --> production
+* Es Homologación --> homologation
 
-Else
+Ademas
 
-Search for 'server_mode' parameter on conf file. If that parameter:
+Busque el parámetro 'server_mode' en el archivo conf. Si ese parámetro:
 
-* has a value then we use "homologation",
-* if no parameter, then "production"
+* Tiene un valor, entonces usamos "homologación".
+* Si no hay parámetro, entonces "producción".
 
 Incluye:
 --------
@@ -32,9 +32,6 @@ travésde Web Services. Este módulo es un servicio para administradores y
 programadores, donde podrían configurar el servidor, la autentificación
 y además tendrán acceso a una API genérica en Python para utilizar los
 servicios AFIP.
-
-Para poder ejecutar los tests es necesario cargar la clave privada y el
-certificado al archivo test_key.yml.
 
 Tenga en cuenta que estas claves son personales y pueden traer conflicto
 publicarlas en los repositorios públicos.
